@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* home */
+.home{
+    height: 100vh;
+    background-color: aqua;
+}
+/* navegacao */
+nav {
+    display: flex;
+    background-color: brown;
+    height: 150px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+nav ul{
+    width: 35vw;
+    display: flex;
+    margin-right: 100px;
+    background-color: darkblue;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: flex;
+    padding-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
