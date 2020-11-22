@@ -10,7 +10,10 @@
 html{
     overflow-x: hidden;
 }
-body, html { overflow-x:hidden; }
+body, html { 
+    overflow-x:hidden;
+    height: 100%; 
+    }
 
  @media (max-width: 900px){
     #nav-bar ul li{
@@ -25,6 +28,9 @@ body, html { overflow-x:hidden; }
         padding-top: 12rem;
         padding-right: -100px;
         font-size: 2.5rem;
+    }
+    .caixas{
+        flex-direction: column;
     }
  }
  
@@ -76,4 +82,45 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 2rem;
+}
+
+/* Produtos */
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    background-color: #35363A;
+}
+
+.produtos h2{
+    text-align: center;
+}
+.caixas {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos-box h3{
+    padding-top: 15px;
+}
+
+.caixa img{
+    height: 100%;
+}
+
+.caixa{
+    height: 70%;
+}
+
+/* contato */
+
+.contato{
+    display: flex;
+    justify-content: space-between;
 }
