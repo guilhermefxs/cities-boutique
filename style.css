@@ -32,6 +32,22 @@ body, html {
     .caixas{
         flex-direction: column;
     }
+    .contato{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .logo-preto{
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    .contact-text{
+        font-size: 7vw;
+        padding-left: 20px;
+    }
+    .contatos-itens{
+        padding-left: 60px;
+    }
  }
  
 /* home */
@@ -123,4 +139,24 @@ nav ul li a{
 .contato{
     display: flex;
     justify-content: space-between;
+    background-color: #B7AB9D;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.contatos-itens{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+@media screen and (min-width: 901px){
+    .logo-preto{
+        padding-left: 100px;
+    }
+.contact-text{
+    font-size: 2vw;
+    padding-left: 30px;
+}
 }
