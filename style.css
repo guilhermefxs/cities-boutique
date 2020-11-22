@@ -1,5 +1,4 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -7,51 +6,52 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     overflow-x: hidden;
 }
-body, html { 
-    overflow-x:hidden;
-    height: 100%; 
-    }
 
- @media (max-width: 900px){
-    #nav-bar ul li{
+body,
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+@media (max-width: 900px) {
+    #nav-bar ul li {
         display: none;
     }
-
-    .home header img{
+    .home header img {
         height: 55%;
-        
     }
-    #slogan h1{
+    #slogan h1 {
         padding-top: 12rem;
         padding-right: -100px;
         font-size: 2.5rem;
     }
-    .caixas{
+    .caixas {
         flex-direction: column;
     }
-    .contato{
+    .contato {
         flex-direction: column;
         align-content: center;
     }
-
-    .logo-preto{
+    .logo-preto {
         height: 100px;
         margin-bottom: 30px;
     }
-    .contact-text{
+    .contact-text {
         font-size: 7vw;
         padding-left: 20px;
     }
-    .contatos-itens{
+    .contatos-itens {
         padding-left: 60px;
     }
- }
- 
+}
+
+
 /* home */
-.home{
+
+.home {
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -60,11 +60,11 @@ body, html {
     background-size: cover;
 }
 
-.home header img{
+.home header img {
     padding: 60px 0px 0px 100px;
 }
 
-#slogan{
+#slogan {
     align-self: flex-end;
     padding-top: 15%;
     padding-right: 10%;
@@ -72,9 +72,10 @@ body, html {
     font-size: 4rem;
 }
 
+
 /* navegacao */
 
-.home header{
+.home header {
     display: flex;
     justify-content: space-around;
 }
@@ -83,34 +84,35 @@ nav {
     height: 13rem;
 }
 
-nav ul{
+nav ul {
     width: 50vw;
     padding-top: 70px;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     padding: 0px 40px 0px 40px;
-
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 2rem;
 }
 
+
 /* Produtos */
 
-.produtos{
+.produtos {
     display: flex;
     flex-direction: column;
     background-color: #35363A;
 }
 
-.produtos h2{
+.produtos h2 {
     text-align: center;
 }
+
 .caixas {
     display: flex;
     justify-content: center;
@@ -122,21 +124,22 @@ nav ul li a{
     align-items: center;
 }
 
-.produtos-box h3{
+.produtos-box h3 {
     padding-top: 15px;
 }
 
-.caixa img{
+.caixa img {
     height: 100%;
 }
 
-.caixa{
+.caixa {
     height: 70%;
 }
 
+
 /* contato */
 
-.contato{
+.contato {
     display: flex;
     justify-content: space-between;
     background-color: #B7AB9D;
@@ -144,19 +147,29 @@ nav ul li a{
     padding-bottom: 50px;
 }
 
-
-
-.contatos-itens{
+.contatos-itens {
     display: flex;
     padding-top: 10px;
     padding-right: 100px;
 }
-@media screen and (min-width: 901px){
-    .logo-preto{
+
+@media screen and (min-width: 901px) {
+    .logo-preto {
         padding-left: 100px;
     }
-.contact-text{
-    font-size: 2vw;
-    padding-left: 30px;
+    .contact-text {
+        font-size: 2vw;
+        padding-left: 30px;
+    }
 }
+
+
+/* Footer */
+
+footer {}
+
+footer p {
+    font-size: 30px;
+    text-align: right;
+    padding-right: 30px;
 }
