@@ -67,7 +67,7 @@ html {
     display: flex;
     height: 100vh;
     flex-direction: column;
-    background-image: url("/images/banner.png");
+    background-image: url("./images/banner.png");
     background-repeat: no-repeat, repeat;
     background-size: cover;
 }
